@@ -10,6 +10,7 @@ cache:
     - node_modules
 
 before_install:
+  - pip install 'requests[security]'
   - pip install mkdocs --user
   - pip install mkdocs-material --user
 
