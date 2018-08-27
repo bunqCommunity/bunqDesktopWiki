@@ -1,10 +1,32 @@
+# Project information
 site_name: bunqDesktop Wiki
+site_url: https://wiki.bunqdesk.top/
+
+# Repository
+repo_name: 'bunqCommunity/bunqDesktop'
+repo_url: 'https://github.com/bunqCommunity/bunqDesktop'
 
 nav:
   - Home: index.md
 
 theme:
   name: 'material'
+  language: 'en'
   palette:
     primary: 'indigo'
-    accent: 'indigo'  
+    accent: 'indigo'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+
+# Social links and other settings
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/bunqCommmunity/bunqDesktopWiki'
+    - type: 'link'
+      link: 'https://bunqdesk.top'
+
+google_analytics:
+  - 'UA-XXXXXXXX-X'
+  - 'auto'      
