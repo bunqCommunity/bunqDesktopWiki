@@ -1,0 +1,30 @@
+language: node_js
+node_js:
+  - '10'
+python:
+  - "2.7"
+
+cache:
+  yarn: true
+  directories:
+    - node_modules
+
+before_install:
+  - pip install mkdocs
+  - pip install mkdocs-material
+
+before_deploy:
+  - mkdocs build
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  keep-history: true
+  github-token: $GITHUB_TOKEN
+  local-dir: site
+  on:
+    branch: master
+
+env:
+  global:
+    secure: BLknFCI/hABcEZ6FHlSw7fWy+QoqIIim0fgoEV4CbryXn4B3s9jbdwneVYmP2m5Y2PHkxf8Rpj18hbvgMpfPsvCAvipERjtU/dAIjeZMvH8qPQpj0DUZXuJouT/12k8QAkEkkZNQ8KyAyTEUS6qEt83vqTiSUndqR3KsGXowtSLu9oTfkdihJArjE605ZKkooLIFfwU06mdhq1JkLrbwwNMShO6dAzBi2NviLy7tfvcbbiGnlUBiE8FSSfOBoTK2XbcyOzONQ2YUCOQYVTWB+5LA5haItjwilerdZUd/wedBfR7OqLhpXtjegdu6LGNZU6HCUN+8tn1/r+1W7D0pgIcSETwHVu5fg/d0+Pv2u76CUC3ReUhpDyipQaZossAGQgGLjNHmxYa2sR9BJCpN2aHtirFtNBPVruRmSu/zJBwqnq/GVpTRRL8h28h58i+RvF4wMbfU6N0wWhRaULGexmIlIZJW0RkQuxIcIddqlZ9b+jRU3kjszdJWRam+sJ11qdcfSYVpmQPfSoehbNyLWNdNJ+o8Li7kXgHNapTPyQWjUNEainDDL+kwbHo/wXECRm3n2VUUzpvDCM42cIVg2Kw89kfh3FFxXxsXkgUNHjEmzDeOqWFEouJthRDf9y/irnq9L/Q+4LX/GPnZFZosyIFD7hj7z7DRKrnQNxV8RaY=
