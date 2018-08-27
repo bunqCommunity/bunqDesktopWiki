@@ -3,8 +3,8 @@ site_name: bunqDesktop Wiki
 site_url: https://wiki.bunqdesk.top/
 
 # Repository
-repo_name: 'bunqCommunity/bunqDesktop'
-repo_url: 'https://github.com/bunqCommunity/bunqDesktop'
+repo_name: 'bunqCommunity/bunqDesktopWiki'
+repo_url: 'https://github.com/bunqCommunity/bunqDesktopWiki'
 
 nav:
   - Home: index.md
