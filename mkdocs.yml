@@ -1,0 +1,10 @@
+site_name: bunqDesktop Wiki
+
+nav:
+  - Home: index.md
+
+theme:
+  name: 'material'
+  palette:
+    primary: 'indigo'
+    accent: 'indigo'  
