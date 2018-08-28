@@ -1,15 +1,15 @@
-You can setup bunqDesktop to use a Sandbox account this way you can test the app and see if you like it without having to use your real account.
+The sandbox mode is a testing option that uses the sandbox function from the bunq API.
+This mode is great if you want to test out the bunqDesktop app and take a look for yourself instead of looking at screenshots. But please keep in mind there are limitations some of them are the following:
 
-In order to do so you first have to startup a password when you first start bunqDesktop:
-![Screenshot](images/demo-mode/1.png)
+In the sandbox mode you can:
+- create monatary accounts
+- [request money](demo-mode-money.md)
+- make payments between your sandbox monetary accounts
+- setup scheduled payments between your sandbox monetary accounts
 
-After that you will need to click onto the "more options" button:
-![Screenshot](images/demo-mode/2.png)
+In the sandbox mode you can't:
+- send real money
+- manage any cards
+- see statistics (because there are no simulated payments)
 
-In the submenu that apears you have to enable the "enable sandbox mode ?" toggle:
-![Screenshot](images/demo-mode/3.png)
-
-Then the last thing you will need to to is press the big "create sandbox account" button and you are done:
-![Screenshot](images/demo-mode/4.png)
-
-This will create a sandbox account and log you into it. Enjoy playing arround with the sanbox account.
+![Screenshot](images/demo-mode-setup/4.png)
