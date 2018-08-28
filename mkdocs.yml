@@ -11,9 +11,9 @@ nav:
   - Home: 'index.md'
   - Installation: 'installation.md'
   - Demo Mode:
-    - 'What is the Demo Mode?': demo-mode.md
-    - 'How to set up the Demo Mode?': 'demo-mode-setup.md'
-    - 'How do I get money in Demo Mode?': 'demo-mode-money.md'
+    - 'Sandbox account explained': demo-mode.md
+    - 'Create a sandbox account': 'demo-mode.md'
+    - 'Add funds to the account': 'demo-mode-money.md'
 
 # Theme settings
 theme:
@@ -34,6 +34,4 @@ extra:
     - type: 'link'
       link: 'https://bunqdesk.top'
 
-google_analytics:
-  - 'UA-124732952-1'
-  - 'auto'
+google_analytics: ['UA-124732952-1', 'wiki.bunqdesk.top']
