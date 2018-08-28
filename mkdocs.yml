@@ -12,7 +12,7 @@ nav:
   - Installation: 'installation.md'
   - Demo Mode:
     - 'Sandbox account explained': demo-mode.md
-    - 'Create a sandbox account': 'demo-mode.md'
+    - 'Create a sandbox account': 'demo-mode-setup.md'
     - 'Add funds to the account': 'demo-mode-money.md'
 
 # Theme settings
