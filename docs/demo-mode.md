@@ -1,4 +1,3 @@
-## Demo Mode
 You can setup bunqDesktop to use a Sandbox account this way you can test the app and see if you like it without having to use your real account.
 
 In order to do so you first have to startup a password when you first start bunqDesktop:
