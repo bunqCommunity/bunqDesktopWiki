@@ -11,7 +11,8 @@ nav:
   - Home: 'index.md'
   - Installation: 'installation.md'
   - Demo Mode:
-    - 'Demo Mode': 'demo-mode.md'
+    - 'What is the Demo Mode?': demo-mode.md
+    - 'How to set up the Demo Mode?': 'demo-mode-setup.md'
     - 'How do I get money in Demo Mode?': 'demo-mode-money.md'
 
 # Theme settings
