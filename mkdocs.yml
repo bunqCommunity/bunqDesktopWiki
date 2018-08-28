@@ -11,8 +11,8 @@ nav:
   - Home: 'index.md'
   - Installation: 'installation.md'
   - Demo Mode:
-    - 'Demo Mode': 'demo-mode.md'
-    - 'How do I get money in Demo Mode?': 'demo-mode-money.md'
+    - 'Create a sandbox account': 'demo-mode.md'
+    - 'Add funds to the account': 'demo-mode-money.md'
 
 # Theme settings
 theme:
