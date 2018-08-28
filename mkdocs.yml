@@ -8,6 +8,9 @@ repo_url: 'https://github.com/bunqCommunity/bunqDesktopWiki'
 
 nav:
   - Home: index.md
+  - Installation: installation.md
+  - Demo Mode: demo-mode.md
+    - How do I get money in Demo Mode?: demo-mode-money.md
 
 theme:
   name: 'material'
@@ -29,4 +32,4 @@ extra:
 
 google_analytics:
   - 'UA-XXXXXXXX-X'
-  - 'auto'      
+  - 'auto'
