@@ -1,4 +1,3 @@
-## Installation
 #### One click installers
 Download the latest version of bunqDesktop from the [GitHub releases page.](https://github.com/bunqCommunity/bunqDesktop/releases)
 
