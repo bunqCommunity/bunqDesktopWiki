@@ -8,7 +8,5 @@ First and foremost, here are some links you might be looking for:
  - [Official website](https://bunqdesk.top)
  - [Releases](https://github.com/BunqCommunity/bunqDesktop/releases/latest)
 
-### Development-requirements
- 
- - `pip install mkdocs`
- - `pip install mkdocs-material`
+### Contributing
+Check out the [contributing page](https://github.com/BunqCommunity/bunqDesktopWiki/blob/master/CONTRIBUTING.md) to see how to setup the wiki locally and suggest changes
