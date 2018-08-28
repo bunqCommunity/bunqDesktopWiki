@@ -4,7 +4,7 @@ This mode is great if you want to test out the bunqDesktop app and take a look f
 In the sandbox mode you can:
 
  - create monatary accounts
- - request money](demo-mode-money.md)
+ - [request money](demo-mode-money.md)
  - make payments between your sandbox monetary accounts
  -   setup scheduled payments between your sandbox monetary accounts
 
@@ -14,4 +14,4 @@ In the sandbox mode you can't:
  - manage any cards
  - see statistics (because there are no simulated payments)
 
-![Screenshot](images/demo-mode-setup/4.png)
+![Screenshot Sandbox Dashboard](images/demo-mode/1.png)
