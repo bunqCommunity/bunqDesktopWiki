@@ -1,18 +1,13 @@
-language: node_js
-node_js:
-  - '10'
+language: python
 python:
-  - "2.7"
+  - '3.6'
+sudo: enabled
 
-cache:
-  yarn: true
-  directories:
-    - node_modules
+install:
+  - pip install mkdocs
+  - pip install mkdocs-material
 
-before_install:
-  - pip install --upgrade pip
-  - pip install --user mkdocs
-  - pip install --user mkdocs-material
+script: echo "hi"
 
 before_deploy:
   - mkdocs build
