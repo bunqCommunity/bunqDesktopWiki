@@ -14,6 +14,10 @@ nav:
     - 'Sandbox account explained': demo-mode.md
     - 'Create a sandbox account': 'demo-mode-setup.md'
     - 'Add funds to the account': 'demo-mode-money.md'
+  - Categories & Rules:
+    - 'Categories explained': categories.md
+    - 'Category rules explained': 'category-rules.md'
+    - 'Default rules & categories': 'categories-rules-default.md'
 
 # Theme settings
 theme:
