@@ -1,4 +1,4 @@
-Categories are used to categories transactions based on [self configurable rules](categorie-rules.md). The categories will be shown on your payments history on the Dashboard and will also be used to create beatiful statistics on the statistics page.
+Categories are used to categories transactions based on [self configurable rules](category-rules.md). The categories will be shown on your payments history on the Dashboard and will also be used to create beatiful statistics on the statistics page.
 
 Here are also some default categories included with bunqDesktop installation from version 0.9.0 onwards. But you can ofcourse delte them or recreate them or add your own categories.
 

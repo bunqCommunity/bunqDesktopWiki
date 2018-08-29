@@ -16,7 +16,7 @@ nav:
     - 'Add funds to the account': 'demo-mode-money.md'
   - Categories & Rules:
     - 'Categories explained': categories.md
-    - 'Categorie rules explained': 'categorie-rules.md'
+    - 'Category rules explained': 'category-rules.md'
     - 'Default rules & categories': 'categories-rules-default.md'
 
 # Theme settings
