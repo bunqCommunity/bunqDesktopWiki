@@ -15,7 +15,7 @@ Using the rule editor you can add or edit rules there are different possibilitie
 
   - Contains text
   - Matches exactly
-  - Stats with
+  - Starts with
   - Ends with
   - Regex
 
