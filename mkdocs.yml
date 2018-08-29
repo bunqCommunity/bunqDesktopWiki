@@ -18,6 +18,7 @@ nav:
     - 'Categories explained': categories.md
     - 'Category rules explained': 'category-rules.md'
     - 'Default rules & categories': 'categories-rules-default.md'
+  - Changing your address explained: 'change-address.md'
 
 # Theme settings
 theme:
