@@ -17,7 +17,7 @@ nav:
   - Categories & Rules:
     - 'Categories explained': categories.md
     - 'Categorie rules explained': 'categorie-rules.md'
-    - 'Default rules & categories': 'categorie-rules-default.md'
+    - 'Default rules & categories': 'categories-rules-default.md'
 
 # Theme settings
 theme:
