@@ -10,6 +10,7 @@ repo_url: 'https://github.com/bunqCommunity/bunqDesktopWiki'
 nav:
   - Home: 'index.md'
   - Installation: 'installation.md'
+  - Setup explained: 'setup.md'
   - Demo Mode:
     - 'Sandbox account explained': demo-mode.md
     - 'Create a sandbox account': 'demo-mode-setup.md'
@@ -19,6 +20,7 @@ nav:
     - 'Category rules explained': 'category-rules.md'
     - 'Default rules & categories': 'categories-rules-default.md'
   - Changing your address explained: 'change-address.md'
+  - Data security explained: 'data-security.md'
 
 # Theme settings
 theme:
