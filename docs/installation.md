@@ -11,3 +11,6 @@ You can directly search for 'bunqDesktop' in the Ubuntu store or use  the snap c
 
 #### [Chocolatey](https://chocolatey.org/packages/bunqdesktop)
 `choco install bunqdesktop`
+
+#### [AUR package](https://aur.archlinux.org/packages/bunq-desktop-bin/)
+`yaourt -S bunq-desktop-bin`
