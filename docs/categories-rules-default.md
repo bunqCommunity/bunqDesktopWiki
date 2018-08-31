@@ -1,4 +1,5 @@
-bunqDesktop already comes with a preinstalled set of categories and rules these can be edited by creating a pull request to this github repository.
+bunqDesktop already comes with a pre-installed set of categories and rules.
+These can be edited by creating a pull request to this github repository.
 
 [Github Repo](https://github.com/BunqCommunity/bunqDesktopTemplates)
 

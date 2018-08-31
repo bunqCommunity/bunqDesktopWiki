@@ -1,1 +1,1 @@
-Welcome to the bunqDesktop Wiki here you can find usefull information and tricks for bunqDesktop
+Welcome to the bunqDesktop Wiki. Here you can find useful information and tips for bunqDesktop
