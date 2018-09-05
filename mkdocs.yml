@@ -10,17 +10,19 @@ repo_url: 'https://github.com/bunqCommunity/bunqDesktopWiki'
 nav:
   - Home: 'index.md'
   - Installation: 'installation.md'
-  - Setup explained: 'setup.md'
+  - Setup account:
+    - 'API Key': 'setup/setup-api-key.md'
+    - 'OAuth': 'setup/setup-oauth.md'
   - Demo Mode:
-    - 'Sandbox account explained': demo-mode.md
-    - 'Create a sandbox account': 'demo-mode-setup.md'
-    - 'Add funds to the account': 'demo-mode-money.md'
+    - 'Sandbox account explained': 'demo-mode/demo-mode.md'
+    - 'Create a sandbox account': 'demo-mode/demo-mode-setup-api-key.md'
+    - 'Add funds to the account': 'demo-mode/demo-mode-money.md'
   - Categories & Rules:
-    - 'Categories explained': categories.md
-    - 'Category rules explained': 'category-rules.md'
-    - 'Default rules & categories': 'categories-rules-default.md'
-  - Changing your address explained: 'change-address.md'
-  - Data security explained: 'data-security.md'
+    - 'Categories explained': 'categories/categories.md'
+    - 'Category rules explained': 'categories/category-rules.md'
+    - 'Default rules & categories': 'categories/categories-rules-default.md'
+  - Changing your address: 'change-address.md'
+  - Data security: 'data-security.md'
 
 # Theme settings
 theme:

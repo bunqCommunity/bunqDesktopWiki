@@ -14,6 +14,6 @@ In the sandbox mode you can't:
  - manage any cards
  - see statistics (because there are no simulated payments)
 
-![Screenshot Sandbox Dashboard](images/demo-mode/1.png)
+![Screenshot Sandbox Dashboard](../images/demo-mode/1.png)
 
 
