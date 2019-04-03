@@ -8,23 +8,23 @@ If you do NOT log in with the same password, the keys which used a different pas
 
 Now to get started:
 
-1. Log out of your account. This is possible on the dashboard by clicking the small Logout icon at the top right AND the login screen by clicking the `Logout` button.
+ - Log out of your account. This is possible on the dashboard by clicking the small Logout icon at the top right AND the login screen by clicking the `Logout` button.
 
 Marked with red on the right in this screenshot:
 
 ![dashboard view](../images/multiple-accounts/dashboard-view.png)
 
-2. Enter the same password if you want to quickly switch accounts or use a different password if you want to keep them separate.
+ - Enter the same password if you want to quickly switch accounts or use a different password if you want to keep them separate.
 
-3. Log in to your other account, this can be a regular or OAuth API key.
+ - Log in to your other account, this can be a regular or OAuth API key.
 
-4. From that point on, you will see a small Key icon on the dashboard at the top right and a button at the top right of the API login screen.
+ - From that point on, after you enter a password you will see a button at the top right of the API login screen.
+ 
+![API key login screen](../images/multiple-accounts/switch-keys-image.png)
 
-On the dashboard marked with blue on the left in this screenshot:
+And when you are on the dashboard there will be a small Key icon on the dashboard at the top right. Marked with blue on the left in this screenshot:
 
 ![dashboard view](../images/multiple-accounts/dashboard-view.png)
 
-On the API key login screen:
 
-![API key login screen](../images/multiple-accounts/switch-keys-image.png)
 
