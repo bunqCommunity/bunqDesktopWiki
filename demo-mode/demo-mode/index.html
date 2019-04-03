@@ -2,7 +2,7 @@
 
 
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" class="no-js">
   <head>
     
@@ -34,7 +34,7 @@
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
       <link rel="shortcut icon" href="../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.0.2, mkdocs-material-3.0.3">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.1.1">
     
     
       
@@ -42,9 +42,9 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/application.451f80e5.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/application.3020aac5.css">
       
-        <link rel="stylesheet" href="../../assets/stylesheets/application-palette.22915126.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/application-palette.224b79ff.css">
       
       
         
@@ -53,16 +53,45 @@
       
     
     
-      <script src="../../assets/javascripts/modernizr.1aa3b519.js"></script>
+      <script src="../../assets/javascripts/modernizr.01ccdecf.js"></script>
     
     
-      <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
       
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
         <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
       
     
     <link rel="stylesheet" href="../../assets/fonts/material-icons.css">
+    
+    
+    
+      
+        
+<script>
+  window.ga = window.ga || function() {
+    (ga.q = ga.q || []).push(arguments)
+  }
+  ga.l = +new Date
+  /* Setup integration and send page view */
+  ga("create", "UA-124732952-1", "wiki.bunqdesk.top")
+  ga("set", "anonymizeIp", true)
+  ga("send", "pageview")
+  /* Register handler to log search on blur */
+  document.addEventListener("DOMContentLoaded", () => {
+    if (document.forms.search) {
+      var query = document.forms.search.query
+      query.addEventListener("blur", function() {
+        if (this.value) {
+          var path = document.location.pathname;
+          ga("send", "pageview", path + "?q=" + this.value)
+        }
+      })
+    }
+  })
+</script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
+      
     
     
   </head>
@@ -117,22 +146,19 @@
       <div class="md-flex__cell md-flex__cell--stretch">
         <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
           
-            
-              <span class="md-header-nav__topic">
-                bunqDesktop Wiki
-              </span>
-              <span class="md-header-nav__topic">
-                Sandbox account explained
-              </span>
-            
+            <span class="md-header-nav__topic">
+              bunqDesktop Wiki
+            </span>
+            <span class="md-header-nav__topic">
+              Sandbox account explained
+            </span>
           
         </div>
       </div>
       <div class="md-flex__cell md-flex__cell--shrink">
         
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
           
-            <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
-            
 <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
@@ -155,7 +181,6 @@
     </div>
   </div>
 </div>
-          
         
       </div>
       
@@ -166,20 +191,18 @@
 
   
 
-
-  <a href="https://github.com/bunqCommunity/bunqDesktopWiki/" title="Go to repository" class="md-source" data-md-source="github">
-    
-      <div class="md-source__icon">
-        <svg viewBox="0 0 24 24" width="24" height="24">
-          <use xlink:href="#__github" width="24" height="24"></use>
-        </svg>
-      </div>
-    
-    <div class="md-source__repository">
-      bunqCommunity/bunqDesktopWiki
+<a href="https://github.com/bunqCommunity/bunqDesktopWiki/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
     </div>
-  </a>
-
+  
+  <div class="md-source__repository">
+    bunqCommunity/bunqDesktopWiki
+  </div>
+</a>
           </div>
         </div>
       
@@ -215,20 +238,18 @@
 
   
 
-
-  <a href="https://github.com/bunqCommunity/bunqDesktopWiki/" title="Go to repository" class="md-source" data-md-source="github">
-    
-      <div class="md-source__icon">
-        <svg viewBox="0 0 24 24" width="24" height="24">
-          <use xlink:href="#__github" width="24" height="24"></use>
-        </svg>
-      </div>
-    
-    <div class="md-source__repository">
-      bunqCommunity/bunqDesktopWiki
+<a href="https://github.com/bunqCommunity/bunqDesktopWiki/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
     </div>
-  </a>
-
+  
+  <div class="md-source__repository">
+    bunqCommunity/bunqDesktopWiki
+  </div>
+</a>
     </div>
   
   <ul class="md-nav__list" data-md-scrollfix>
@@ -300,6 +321,18 @@
   </li>
 
         
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../setup/setup-multiple-accounts/" title="Multiple accounts" class="md-nav__link">
+      Multiple accounts
+    </a>
+  </li>
+
+        
       </ul>
     </nav>
   </li>
@@ -351,7 +384,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../demo-mode-setup-api-key.md" title="Create a sandbox account" class="md-nav__link">
+    <a href="../demo-mode-setup/" title="Create a sandbox account" class="md-nav__link">
       Create a sandbox account
     </a>
   </li>
@@ -477,18 +510,10 @@
                 
                 <p>The sandbox mode is a playground that uses the sandbox function from the bunq API.
 This mode is great if you want to test out the bunqDesktop app and take a look for yourself instead of looking at screenshots. But please keep in mind there are limitations some of them are the following:</p>
-<p>In the sandbox mode you can:</p>
+<p>In the sandbox mode you can do most things that are possible in the production environment excluding a few things including:</p>
 <ul>
-<li>create monetary accounts</li>
-<li><a href="../demo-mode-money/">request money</a></li>
-<li>make payments between your sandbox monetary accounts</li>
-<li>setup scheduled payments between your sandbox monetary accounts</li>
-</ul>
-<p>In the sandbox mode you can't:</p>
-<ul>
-<li>send real money</li>
-<li>manage any cards</li>
-<li>see statistics (because there are no simulated payments)</li>
+<li>Create/manage cards</li>
+<li>Test 'unique' payments like Transferwise payments</li>
 </ul>
 <p><img alt="Screenshot Sandbox Dashboard" src="../../images/demo-mode/1.png" /></p>
                 
@@ -511,7 +536,7 @@ This mode is great if you want to test out the bunqDesktop app and take a look f
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../../setup/setup-oauth/" title="OAuth" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../../setup/setup-multiple-accounts/" title="Multiple accounts" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -520,19 +545,19 @@ This mode is great if you want to test out the bunqDesktop app and take a look f
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                OAuth
+                Multiple accounts
               </span>
             </div>
           </a>
         
         
-          <a href="../demo-mode-money/" title="Add funds to the account" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../demo-mode-setup/" title="Create a sandbox account" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Add funds to the account
+                Create a sandbox account
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
@@ -554,7 +579,6 @@ This mode is great if you want to test out the bunqDesktop app and take a look f
           Material for MkDocs</a>
       </div>
       
-        
   <div class="md-footer-social">
     <link rel="stylesheet" href="../../assets/fonts/font-awesome.css">
     
@@ -564,21 +588,15 @@ This mode is great if you want to test out the bunqDesktop app and take a look f
     
   </div>
 
-      
     </div>
   </div>
 </footer>
       
     </div>
     
-      <script src="../../assets/javascripts/application.583bbe55.js"></script>
+      <script src="../../assets/javascripts/application.dc02f8ce.js"></script>
       
-      <script>app.initialize({version:"1.0.2",url:{base:"../.."}})</script>
-      
-    
-    
-      
-        <script>!function(e,a,t,n,o,c,i){e.GoogleAnalyticsObject=o,e.ga=e.ga||function(){(e.ga.q=e.ga.q||[]).push(arguments)},e.ga.l=1*new Date,c=a.createElement(t),i=a.getElementsByTagName(t)[0],c.async=1,c.src="https://www.google-analytics.com/analytics.js",i.parentNode.insertBefore(c,i)}(window,document,"script",0,"ga"),ga("create","UA-124732952-1","wiki.bunqdesk.top"),ga("set","anonymizeIp",!0),ga("send","pageview");var links=document.getElementsByTagName("a");if(Array.prototype.map.call(links,function(e){e.host!=document.location.host&&e.addEventListener("click",function(){var a=e.getAttribute("data-md-action")||"follow";ga("send","event","outbound",a,e.href)})}),document.forms.search){var query=document.forms.search.query;query.addEventListener("blur",function(){if(this.value){var e=document.location.pathname;ga("send","pageview",e+"?q="+this.value)}})}</script>
+      <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
       
     
   </body>
